@@ -125,10 +125,10 @@ if (even % 2 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let val = 4;
-if (val < 10) {
-  console.log("Meno di 10");
-} else if (val < 5) {
+if (val < 5) {
   console.log("Meno di 5");
+} else if (val < 10) {
+  console.log("Meno di 10");
 } else {
   console.log("Uguale a 10 o maggiore");
 }
@@ -165,8 +165,9 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numbers = [];
 console.log(numbers);
+numbers.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 /* ESERCIZIO 15
 Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
